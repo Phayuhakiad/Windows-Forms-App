@@ -24,7 +24,7 @@ namespace Windows_Forms_App
             //Radius = Convert.ToDouble(txtRaduis.Text);
             if (double.TryParse(txtRaduis.Text, out Radius) == false)
             {
-                MessageBox.Show("กรอกข้อมูลไม่ถูกต้อง", "ฮ่วย Error!!");
+                MessageBox.Show("กรอกข้อมูลไม่ถูกต้อง", "Error");
                 txtRaduis.Focus();    //ให้มี Cursor ที่ Textbox
                 txtRaduis.SelectAll();  //ให้ Selected ข้อความใน Textbox
                 return;
