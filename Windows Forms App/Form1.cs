@@ -50,7 +50,7 @@ namespace Windows_Forms_App
             // ตรวจสอบค่าความสูง
             if (double.TryParse(txtHeitght.Text, out double Height) == false)
             {
-                MessageBox.Show("กรอกความสูงไม่ถูกต้อง", "Error");
+                MessageBox.Show("กรอกค่าความสูงไม่ถูกต้อง", "Error");
                 txtHeitght.Focus();
                 txtHeitght.SelectAll();
                 return;
